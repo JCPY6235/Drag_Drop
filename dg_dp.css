@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+
+[data-draggable = "target"]{
+    border: 2px solid blue;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    list-style-type: none;
+    width: 100px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: azure;
+}
+
+[data-draggable = "item"]{
+    width: 80px;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
